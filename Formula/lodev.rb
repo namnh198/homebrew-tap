@@ -3,27 +3,27 @@ class Lodev < Formula
   desc "DDEV-like local PHP development with shared Docker services"
   homepage "https://github.com/namnh198/lodev"
   license "MIT"
-  version "0.1.8"
+  version "0.1.9"
 
   on_macos do
     on_arm do
-      url "https://github.com/namnh198/lodev/releases/download/v0.1.8/lodev_0.1.8_darwin_arm64.tar.gz"
-      sha256 "277b0ae94168786298b1b8c804c3bb23d3a5cef67bfcf3a54ece1e76e65c8ba3"
+      url "https://github.com/namnh198/lodev/releases/download/v0.1.9/lodev_0.1.9_darwin_arm64.tar.gz"
+      sha256 "7e2b5fa6fd7a6ee1dab7b3f8a7270efc2351c3722577eefacc415e8c720c4e06"
     end
     on_intel do
-      url "https://github.com/namnh198/lodev/releases/download/v0.1.8/lodev_0.1.8_darwin_amd64.tar.gz"
-      sha256 "83cfce03e1e6cebf4b5a5c4174e770b8cb54fbe1879deb9a52d6678512be55ed"
+      url "https://github.com/namnh198/lodev/releases/download/v0.1.9/lodev_0.1.9_darwin_amd64.tar.gz"
+      sha256 "0eef062f3bcfd489799a721b77c42383265c72e2820a1dceca0ab10829030f87"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/namnh198/lodev/releases/download/v0.1.8/lodev_0.1.8_linux_arm64.tar.gz"
-      sha256 "79b104bba9908582b33c4fd850369ecde3642e51eae33ca03f7cbdec44e814ca"
+      url "https://github.com/namnh198/lodev/releases/download/v0.1.9/lodev_0.1.9_linux_arm64.tar.gz"
+      sha256 "391debe06c4d6ef2d837daa8135782cabe5f8e06f6605e9ca6d9ed3e2476591a"
     end
     on_intel do
-      url "https://github.com/namnh198/lodev/releases/download/v0.1.8/lodev_0.1.8_linux_amd64.tar.gz"
-      sha256 "cd76cbe0df716a7a0ca5617300010648f8e98c1743dcb3a7374ce1658db9d783"
+      url "https://github.com/namnh198/lodev/releases/download/v0.1.9/lodev_0.1.9_linux_amd64.tar.gz"
+      sha256 "b530ad0c498d6a5afcc329811be6c90be21393212dc022fac6f793a071e92c84"
     end
   end
 
