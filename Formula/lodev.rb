@@ -8,22 +8,22 @@ class Lodev < Formula
   on_macos do
     on_arm do
       url "https://github.com/namnh198/lodev/releases/download/v0.1.11/lodev_0.1.11_darwin_arm64.tar.gz"
-      sha256 "6e101c43a0fa3b73e5e5b1039539799fcddb838d5cc47108f0352bb0701af3f8"
+      sha256 "bab4236f82b721aa0a416f66b13b29e60868d11a935c69674a1eccf4cd148166"
     end
     on_intel do
       url "https://github.com/namnh198/lodev/releases/download/v0.1.11/lodev_0.1.11_darwin_amd64.tar.gz"
-      sha256 "e032696d564c4bda953610eb37719a5c7ce76ae1f7c93d53dc3ac4d93b5dd28d"
+      sha256 "18070b2aae7ed88e29f391147bc54321f306c339b60051adb6ab4a1be8e41c83"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/namnh198/lodev/releases/download/v0.1.11/lodev_0.1.11_linux_arm64.tar.gz"
-      sha256 "91e12b9aa30b6ad1d92f7493a6467cc3882892fc7d66bb0e152ac4a0ccf5ab0e"
+      sha256 "6503d468967db846d9ca03b93c95cfe45dd1d55c6cccf48fdac3b72d74eb7ebc"
     end
     on_intel do
       url "https://github.com/namnh198/lodev/releases/download/v0.1.11/lodev_0.1.11_linux_amd64.tar.gz"
-      sha256 "20097535ad71351176a7ed6393908612c6e82e776c8e628cb43f26f67970d82d"
+      sha256 "f20dbebe8d65f860d7440571e381da1c0dcf15375f5bf8132d25505dbefaa652"
     end
   end
 
